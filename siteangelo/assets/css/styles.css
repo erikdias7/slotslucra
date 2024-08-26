@@ -1,0 +1,158 @@
+body {
+  background-color: #E0DBFF;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  background-color: #4D18AE;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(255, 0, 255, 0.51);
+}
+
+.bonus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.bonus-icon {
+  margin-right: 0;
+  width: 20%;
+}
+
+.bonusname {
+  margin-left: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.user-email {
+  margin-top: 5px;
+}
+
+.welcome-message {
+  margin: 20px 0;
+  font-size: 1rem;
+  color: #4D18AE;
+}
+
+.benefit {
+  background-color: #4D18AE;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(255, 0, 255, 0.51);
+}
+
+.benefit2 {
+  background-color: #4BBA16;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(255, 0, 255, 0.51);
+}
+
+
+.benefit-image {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.benefit-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bonusimage2 {
+  width: 104.5%;
+}
+
+.benefit-description {
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .bonusimage {
+    width: 100%;
+    /* Define que cada imagem ocupe 100% da largura em telas menores */
+  }
+}
+
+@media (max-width: 768px) {
+  .bonusimage2 {
+    width: 107%;
+    /* Define que cada imagem ocupe 100% da largura em telas menores */
+  }
+}
+
+.benefit button {
+  background-color: #F9C708;
+  color: #4D18AE;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+.footer-link button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #4D18AE;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(255, 0, 255, 0.51);
+}
+
+.nav-bar {
+  background-color: #4D18AE;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-bar button {
+  background-color: #4D18AE;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
